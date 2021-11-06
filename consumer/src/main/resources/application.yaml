@@ -1,0 +1,7 @@
+resilience4j.timelimiter:
+  instances:
+    backendA:
+      timeoutDuration: 1s
+      #      Calling future.cancel(true) or not
+      cancelRunningFuture: true
+
